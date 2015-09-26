@@ -79,6 +79,7 @@ UITableViewDelegate
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PostCellIdentifier" forIndexPath:indexPath];
     MikeInstagramPost *post = self.instagramPosts[indexPath.row];
     cell.textLabel.text = post.username;
+    cell.detailTextLabel.text = post.caption[@"text"];
     return cell;
 }
 
