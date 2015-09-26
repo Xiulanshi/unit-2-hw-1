@@ -34,8 +34,11 @@ UITableViewDelegate
 }
 
 - (void)fetchInstagramData {
+    
+    NSString *tagName = [self.place.name stringByReplacingOccurrencesOfString:@" " withString:@""];
+    NSString *url = [NSString stringWithFormat:@"https://api.instagram.com/v1/tags/%@/media/recent?client_id=ac0ee52ebb154199bfabfb15b498c067",tagName];
     // create an instagram url
-    NSURL *instagramURL = [NSURL URLWithString:@"https://api.instagram.com/v1/tags/newyork/media/recent?client_id=ac0ee52ebb154199bfabfb15b498c067"];
+    NSURL *instagramURL = [NSURL URLWithString:url];
     
     // fetch data from the instagram endpoint and print json response
     [APIManager GETRequestWithURL:instagramURL completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
