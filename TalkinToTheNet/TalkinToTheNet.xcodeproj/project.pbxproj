@@ -16,6 +16,7 @@
 		D9DEF2D11BB607E10085F47E /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DEF2D01BB607E10085F47E /* APIManager.m */; settings = {ASSET_TAGS = (); }; };
 		D9DEF2D41BB608E00085F47E /* PlaceResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DEF2D31BB608E00085F47E /* PlaceResult.m */; settings = {ASSET_TAGS = (); }; };
 		D9DEF2D71BB61AEB0085F47E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DEF2D61BB61AEB0085F47E /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D9DEF2E01BB631C50085F47E /* MikeInstagramPost.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DEF2DF1BB631C50085F47E /* MikeInstagramPost.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		D9DEF2D31BB608E00085F47E /* PlaceResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceResult.m; sourceTree = "<group>"; };
 		D9DEF2D51BB61AEB0085F47E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		D9DEF2D61BB61AEB0085F47E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D9DEF2DE1BB631C50085F47E /* MikeInstagramPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MikeInstagramPost.h; sourceTree = "<group>"; };
+		D9DEF2DF1BB631C50085F47E /* MikeInstagramPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MikeInstagramPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				D9DEF2D31BB608E00085F47E /* PlaceResult.m */,
 				D9DEF2D51BB61AEB0085F47E /* DetailViewController.h */,
 				D9DEF2D61BB61AEB0085F47E /* DetailViewController.m */,
+				D9DEF2DE1BB631C50085F47E /* MikeInstagramPost.h */,
+				D9DEF2DF1BB631C50085F47E /* MikeInstagramPost.m */,
 				8D7DCD521BAF859400A92AD2 /* Main.storyboard */,
 				8D7DCD551BAF859400A92AD2 /* Assets.xcassets */,
 				8D7DCD571BAF859400A92AD2 /* LaunchScreen.storyboard */,
@@ -166,6 +171,7 @@
 			files = (
 				D9DEF2D11BB607E10085F47E /* APIManager.m in Sources */,
 				8D7DCD511BAF859400A92AD2 /* ViewController.m in Sources */,
+				D9DEF2E01BB631C50085F47E /* MikeInstagramPost.m in Sources */,
 				D9DEF2D41BB608E00085F47E /* PlaceResult.m in Sources */,
 				8D7DCD4E1BAF859400A92AD2 /* AppDelegate.m in Sources */,
 				8D7DCD4B1BAF859400A92AD2 /* main.m in Sources */,
